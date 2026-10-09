@@ -35,7 +35,7 @@ IAM (Identity and Access Management) lets you create separate users within your 
 1. Log in to [console.aws.amazon.com](https://console.aws.amazon.com) with your **root account**
 2. In the search bar, type **IAM** and click on it
 3. In the left sidebar, click **Users** → then click **Create user**
-4. Enter a username (e.g. `vvce-workshop-user`) → click **Next**
+4. Enter a username (e.g. `amrita-workshop-user`) → click **Next**
 5. On the **Set permissions** page:
    - Select **Attach policies directly**
    - Search for `AdministratorAccess`

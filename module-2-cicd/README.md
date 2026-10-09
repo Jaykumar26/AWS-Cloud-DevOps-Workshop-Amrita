@@ -29,12 +29,12 @@ Add the following 4 secrets:
 
 | Secret Name     | Value                                                        |
 |-----------------|--------------------------------------------------------------|
-| `EC2_SSH_KEY`   | The full contents of your `vvce-key.pem` file               |
+| `EC2_SSH_KEY`   | The full contents of your `amrita-key.pem` file             |
 | `HOST_DNS`      | Your EC2 instance's Public IPv4 address (e.g. `3.x.x.x`)   |
 | `USERNAME`      | `ubuntu` (default user for Ubuntu AMI)                       |
 | `TARGET_DIR`    | `/home/ubuntu` (files will be copied here first)            |
 
-> **How to get the `.pem` content:** `cat vvce-key.pem` — copy everything including the `-----BEGIN...` and `-----END...` lines.
+> **How to get the `.pem` content:** `cat amrita-key.pem` — copy everything including the `-----BEGIN...` and `-----END...` lines.
 
 ### Step 2: Create the GitHub Actions Workflow
 Create the file `.github/workflows/deploy.yml` in your repo with this content:

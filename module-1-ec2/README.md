@@ -25,10 +25,10 @@ Make sure you have completed everything in the [Prerequisites](../prerequisites/
 1. Log in to [AWS Console](https://console.aws.amazon.com)
 2. Go to **EC2 → Launch Instance**
 3. Fill in the details:
-   - **Name:** `vvce-workshop-server`
+   - **Name:** `amrita-workshop-server`
    - **AMI:** Ubuntu Server 22.04 LTS (Free Tier eligible)
    - **Instance type:** `t2.micro or t3.micro` (Free Tier eligible)
-   - **Key pair:** Create a new key pair → name it `vvce-key` → download the `.pem` file
+   - **Key pair:** Create a new key pair → name it `amrita-key` → download the `.pem` file
    - **Security Group:** Allow the following inbound rules:
      | Type  | Port | Source    |
      |-------|------|-----------|
@@ -40,10 +40,10 @@ Make sure you have completed everything in the [Prerequisites](../prerequisites/
 ### Step 2: Connect to EC2 via SSH
 ```bash
 # Fix permissions on your key file (required on Mac/Linux)
-chmod 400 vvce-key.pem
+chmod 400 amrita-key.pem
 
 # Connect (replace <PUBLIC_IP> with your EC2 public IP)
-ssh -i "vvce-key.pem" ubuntu@<PUBLIC_IP>
+ssh -i "amrita-key.pem" ubuntu@<PUBLIC_IP>
 ```
 
 ### Step 3: Install Apache and Deploy the Website

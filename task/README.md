@@ -51,7 +51,7 @@ To ensure your entry is tracked and reviewed by the evaluation panel, you **MUST
 * **[Yeshwanth L M](https://www.linkedin.com/in/yeshwanth-l-m/)** (Speaker)
 * **[Yashwanth R](https://www.linkedin.com/in/ryashu/)** (Club Captain)
 * **[AWS User Group Mysuru](https://www.linkedin.com/company/awsugmys/)**
-* **[VVCE AWS Student Builder Club](https://www.linkedin.com/company/aws-student-builder-group/)**
+* **[Amrita Vishwa Vidyapeetham, Mysuru Campus AWS Student Builder Club](https://www.linkedin.com/company/aws-student-builder-group/)**
 
 > 🔍 *Note: Only submissions that are correctly tagged and submitted before the deadline will be reviewed.*
 

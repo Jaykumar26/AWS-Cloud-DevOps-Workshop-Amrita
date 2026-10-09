@@ -1,9 +1,9 @@
 # AWS Cloud + DevOps Workshop
 
-### Vidyavardhaka College of Engineering (VVCE), Mysuru
+### Amrita Vishwa Vidyapeetham, Mysuru Campus
 
 **Presenter:** Yeshwanth L M — Data & AI Solutions Engineer/Architect 
-- Presentation Deck: [AWS CloudDevOps Workshop VVCE PPT](https://github.com/user-attachments/files/28908590/AWS.CloudDevOps.Workshop.VVCE.1.pdf)
+- Presentation Deck: [AWS CloudDevOps Workshop Amrita Vishwa Vidyapeetham, Mysuru Campus PPT](https://github.com/user-attachments/files/28908590/AWS.CloudDevOps.Workshop.VVCE.1.pdf)
 
 ---
 

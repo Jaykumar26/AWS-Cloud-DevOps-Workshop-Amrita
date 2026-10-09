@@ -75,7 +75,7 @@ cd AWS-Cloud-DevOps-Workshop-VVCE/
 # Build the image
 # -t = tag (give it a name)
 # . = use the Dockerfile in the current directory
-docker build -t vvce-resume-app .
+docker build -t amrita-resume-app .
 
 # Verify the image was created
 docker images
@@ -87,7 +87,7 @@ docker images
 # -d = detached mode (runs in background)
 # -p 8080:80 = map EC2 port 8080 to container port 80
 # --name = give the container a friendly name
-docker run -d -p 8080:80 --name resume-container vvce-resume-app
+docker run -d -p 8080:80 --name resume-container amrita-resume-app
 
 # Verify the container is running
 docker ps
@@ -115,7 +115,7 @@ docker stop resume-container
 docker rm resume-container
 
 # Remove an image
-docker rmi vvce-resume-app
+docker rmi amrita-resume-app
 
 # View container logs
 docker logs resume-container
@@ -132,10 +132,10 @@ docker login
 
 # Tag the image with your Docker Hub username
 # Format: docker tag <local-image> <dockerhub-username>/<repo-name>:<tag>
-docker tag vvce-resume-app <your-dockerhub-username>/vvce-resume-app:latest
+docker tag amrita-resume-app <your-dockerhub-username>/amrita-resume-app:latest
 
 # Push the image to Docker Hub
-docker push <your-dockerhub-username>/vvce-resume-app:latest
+docker push <your-dockerhub-username>/amrita-resume-app:latest
 ```
 
 Now go to [hub.docker.com](https://hub.docker.com) and show the students their image is publicly available.
@@ -145,7 +145,7 @@ Show students that anyone in the world can now run this website with a single co
 
 ```bash
 # Pull and run directly from Docker Hub (no code needed)
-docker run -d -p 9090:80 <your-dockerhub-username>/vvce-resume-app:latest
+docker run -d -p 9090:80 <your-dockerhub-username>/amrita-resume-app:latest
 ```
 
 Open `http://<PUBLIC_IP>:9090` — same website, running from a public image.

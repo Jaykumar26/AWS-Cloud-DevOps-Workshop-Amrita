@@ -2,69 +2,331 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Jaykumar Esum Pugalia | Resume</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<title>Jaykumar Esum Pugalia</title>
+	<meta name="description" content="Resume of Jaykumar Esum Pugalia, software development candidate with a Bachelor of Computer Applications from Amrita Vishwa Vidyapeetham.">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+	<script id="theme-init">try{var t=localStorage.getItem('jep-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="container">
-		<header>
-			<div class="avatar">JE</div>
-			<h1>Jaykumar Esum Pugalia</h1>
-			<p>Software Development Candidate</p>
-			<p class="contact"><a href="tel:+919656988648">+91 96569 88648</a> &bull; Calicut 673032</p>
-		</header>
-		<section>
-			<h2>Summary</h2>
-			<p>Software development candidate with a Bachelor of Computer Applications, building toward Software Developer work through structured learning, project delivery of 1+ modules per project, and collaborative execution. Uses agile methodologies, active listening, and calm problem-solving to support shared development goals and keep work moving. Brings a disciplined approach to software tasks, from planning through final submission. Project work includes Court Piece (card game), Grid Memory Game, Hangman, Geo Quest and Smart India Hackathon (SIH).</p>
-		</section>
-		<section>
-			<h2>Education</h2>
-			<h3>Amrita Vishwa Vidyapeetham, Mysore</h3>
-			<p>Bachelor of Computer Applications &nbsp;|&nbsp; GPA: 8.3 / 10.0</p>
-			<h3>Bharatiya Vidya Bhavan, Calicut</h3>
-			<p>12th</p>
-			<h3>Bharatiya Vidya Bhavan, Calicut</h3>
-			<p>10th</p>
-		</section>
-		<section>
-			<h2>Skills</h2>
-			<ul>
-				<li>HTML and CSS</li>
-				<li>JavaScript</li>
-				<li>React</li>
-				<li>Git version control</li>
-				<li>Web development and design</li>
-				<li>SQL</li>
-				<li>REST APIs</li>
-				<li>Debugging and software development</li>
-				<li>Agile methodologies</li>
-				<li>Project management</li>
-				<li>Team collaboration</li>
-				<li>Communication skills</li>
-				<li>Java</li>
-				<li>Node.js development</li>
-				<li>Back-end development</li>
-			</ul>
-		</section>
-		<section id="projects">
-			<h2>Projects</h2>
-			<h3>Smart India Hackathon (SIH)</h3>
-			<h3>International Collegiate Programming Contest (ICPC)</h3>
-			<h3>Interface for Tally</h3>
-			<h3>Other Projects</h3>
-			<p>Court Piece (card game), Grid Memory Game, Hangman, Geo Quest</p>
-		</section>
-		<section>
-			<h2>Certifications</h2>
-			<h3>Hands-on Workshop on Web Application Development using Odoo</h3>
-			<h3>Technical Insight into AR/VR Game Development and Careers in Immersive XR</h3>
-		</section>
-		<section>
-			<h2>Key Achievements</h2>
-			<h3>3rd Place Winner, INNOTHON</h3>
-			<p>College Event</p>
-		</section>
+<!--BODY-->
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="top">
+	<div class="wrap nav-inner">
+		<a class="brand" href="#main" aria-label="Back to top">
+			<span class="brand-card" aria-hidden="true">JE</span>
+			<span class="brand-name">Jaykumar Esum Pugalia</span>
+		</a>
+		<nav class="nav-links" id="nav-links" aria-label="Sections">
+			<a href="#about">About</a>
+			<a href="#skills">Skills</a>
+			<a href="#projects">Projects</a>
+			<a href="#education">Education</a>
+			<a href="#awards">Awards</a>
+			<a href="#contact">Contact</a>
+		</nav>
+		<button class="theme-btn" id="theme-btn" type="button" aria-label="Switch color theme"></button>
 	</div>
+</header>
+
+<main id="main">
+
+	<!-- Hero -->
+	<section class="hero wrap" aria-labelledby="hero-name">
+		<div class="hero-text">
+			<p class="eyebrow">Software development candidate &middot; Calicut, Kerala</p>
+			<h1 id="hero-name"><span>Jaykumar</span> <span class="h1-soft">Esum Pugalia</span></h1>
+			<p class="lead">I build for the web with JavaScript, React and Node.js, and I&rsquo;ve made games like Court Piece, Hangman and a grid memory game.</p>
+			<div class="hero-actions">
+				<a class="btn btn-primary" href="#projects">See my projects</a>
+				<button class="btn btn-ghost" type="button" data-copy="+919656988648">Copy phone number</button>
+			</div>
+			<dl class="facts">
+				<div><dt>BCA GPA</dt><dd>8.3<small>/10</small></dd></div>
+				<div><dt>INNOTHON</dt><dd>3rd<small> place</small></dd></div>
+				<div><dt>Projects</dt><dd>7</dd></div>
+				<div><dt>Skills</dt><dd>15</dd></div>
+			</dl>
+		</div>
+
+		<div class="hero-card-wrap" id="card-wrap">
+			<div class="card-stack">
+				<button class="pcard" id="pcard" type="button" aria-pressed="false" aria-label="Profile card. Flip it to see quick stats.">
+					<span class="pcard-inner">
+						<span class="pcard-face pcard-front">
+							<span class="idx idx-tl" aria-hidden="true"><b>J</b><i>&spades;</i></span>
+							<span class="pcard-mono">JE</span>
+							<span class="pcard-sub">Jaykumar Esum Pugalia</span>
+							<span class="idx idx-br" aria-hidden="true"><b>J</b><i>&spades;</i></span>
+						</span>
+						<span class="pcard-face pcard-back">
+							<span class="back-title">Quick stats</span>
+							<span class="stat"><small>Degree</small>BCA</span>
+							<span class="stat"><small>GPA</small>8.3 / 10</span>
+							<span class="stat"><small>Best finish</small>3rd, INNOTHON</span>
+							<span class="stat"><small>Home</small>Calicut</span>
+						</span>
+					</span>
+				</button>
+			</div>
+			<p class="hint">Tap the card to flip it</p>
+		</div>
+	</section>
+
+	<!-- About -->
+	<section class="section" id="about" aria-labelledby="about-h">
+		<div class="wrap">
+			<div class="section-head">
+				<div>
+					<p class="eyebrow">About</p>
+					<h2 id="about-h">From planning to final submission</h2>
+				</div>
+			</div>
+			<div class="about-grid">
+				<p class="prose">I&rsquo;m a software development candidate with a Bachelor of Computer Applications, working toward a Software Developer role through structured learning, delivering at least one module per project, and working closely with my team. I use agile methods, active listening and calm problem-solving to keep shared work moving, and I bring a disciplined approach to every software task, from planning through final submission.</p>
+				<dl class="info">
+					<div><dt>Aiming for</dt><dd>Software Developer roles</dd></div>
+					<div><dt>Degree</dt><dd>BCA, Amrita Vishwa Vidyapeetham</dd></div>
+					<div><dt>How I work</dt><dd>Agile, active listening, calm problem-solving</dd></div>
+					<div><dt>Based in</dt><dd>Calicut, Kerala</dd></div>
+				</dl>
+			</div>
+		</div>
+	</section>
+
+	<!-- Skills -->
+	<section class="section" id="skills" aria-labelledby="skills-h">
+		<div class="wrap">
+			<div class="section-head">
+				<div>
+					<p class="eyebrow">Skills</p>
+					<h2 id="skills-h">What I work with</h2>
+				</div>
+				<p class="section-note">Pick a group to highlight it.</p>
+			</div>
+			<div class="filters" role="group" aria-label="Filter skills">
+				<button class="filter" type="button" data-skill-filter="all" aria-pressed="true">All <span class="count">15</span></button>
+				<button class="filter" type="button" data-skill-filter="front" aria-pressed="false"><span class="dot dot-front"></span>Frontend <span class="count">4</span></button>
+				<button class="filter" type="button" data-skill-filter="back" aria-pressed="false"><span class="dot dot-back"></span>Backend &amp; data <span class="count">5</span></button>
+				<button class="filter" type="button" data-skill-filter="tools" aria-pressed="false"><span class="dot dot-tools"></span>Tools &amp; process <span class="count">3</span></button>
+				<button class="filter" type="button" data-skill-filter="team" aria-pressed="false"><span class="dot dot-team"></span>Teamwork <span class="count">3</span></button>
+			</div>
+			<ul class="chips" id="chips">
+				<li class="chip" data-cat="front"><span class="dot dot-front"></span>HTML and CSS</li>
+				<li class="chip" data-cat="front"><span class="dot dot-front"></span>JavaScript</li>
+				<li class="chip" data-cat="front"><span class="dot dot-front"></span>React</li>
+				<li class="chip" data-cat="front"><span class="dot dot-front"></span>Web development and design</li>
+				<li class="chip" data-cat="back"><span class="dot dot-back"></span>Node.js development</li>
+				<li class="chip" data-cat="back"><span class="dot dot-back"></span>Back-end development</li>
+				<li class="chip" data-cat="back"><span class="dot dot-back"></span>REST APIs</li>
+				<li class="chip" data-cat="back"><span class="dot dot-back"></span>SQL</li>
+				<li class="chip" data-cat="back"><span class="dot dot-back"></span>Java</li>
+				<li class="chip" data-cat="tools"><span class="dot dot-tools"></span>Git version control</li>
+				<li class="chip" data-cat="tools"><span class="dot dot-tools"></span>Debugging and software development</li>
+				<li class="chip" data-cat="tools"><span class="dot dot-tools"></span>Agile methodologies</li>
+				<li class="chip" data-cat="team"><span class="dot dot-team"></span>Project management</li>
+				<li class="chip" data-cat="team"><span class="dot dot-team"></span>Team collaboration</li>
+				<li class="chip" data-cat="team"><span class="dot dot-team"></span>Communication skills</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Projects -->
+	<section class="section" id="projects" aria-labelledby="projects-h">
+		<div class="wrap">
+			<div class="section-head">
+				<div>
+					<p class="eyebrow">Projects</p>
+					<h2 id="projects-h">A hand of seven</h2>
+				</div>
+				<p class="section-note">Two competitions, a tool and four games. Pick a card to read about it.</p>
+			</div>
+			<div class="filters" role="group" aria-label="Filter projects">
+				<button class="filter" type="button" data-proj-filter="all" aria-pressed="true">All <span class="count">7</span></button>
+				<button class="filter" type="button" data-proj-filter="comp" aria-pressed="false"><span aria-hidden="true">&spades;</span>Competitions <span class="count">2</span></button>
+				<button class="filter" type="button" data-proj-filter="build" aria-pressed="false"><span class="suit-red" aria-hidden="true">&diams;</span>Tools <span class="count">1</span></button>
+				<button class="filter" type="button" data-proj-filter="game" aria-pressed="false"><span class="suit-red" aria-hidden="true">&hearts;</span>Games <span class="count">4</span></button>
+			</div>
+
+			<div class="hand-scroll">
+				<ul class="hand" id="hand">
+					<li><button class="proj-card" type="button" aria-pressed="true" data-cat="comp" data-suit="&spades;" data-label="Competition" data-title="Smart India Hackathon (SIH)" data-note="Smart India Hackathon is a nationwide hackathon run by the Government of India, where student teams build working solutions to real problem statements.">
+						<span class="pc-idx pc-tl" aria-hidden="true">&spades;</span>
+						<span class="pc-name">SIH</span>
+						<span class="pc-cat">Hackathon</span>
+						<span class="pc-idx pc-br" aria-hidden="true">&spades;</span>
+					</button></li>
+					<li><button class="proj-card" type="button" aria-pressed="false" data-cat="comp" data-suit="&spades;" data-label="Competition" data-title="International Collegiate Programming Contest (ICPC)" data-note="ICPC is a team-based algorithmic programming contest for university students, solved against the clock.">
+						<span class="pc-idx pc-tl" aria-hidden="true">&spades;</span>
+						<span class="pc-name">ICPC</span>
+						<span class="pc-cat">Programming contest</span>
+						<span class="pc-idx pc-br" aria-hidden="true">&spades;</span>
+					</button></li>
+					<li><button class="proj-card" type="button" aria-pressed="false" data-cat="build" data-suit="&diams;" data-label="Tool" data-title="Interface for Tally" data-note="An interface built for Tally, the accounting software used by many businesses across India.">
+						<span class="pc-idx pc-tl suit-red" aria-hidden="true">&diams;</span>
+						<span class="pc-name">Interface for Tally</span>
+						<span class="pc-cat">Tool</span>
+						<span class="pc-idx pc-br suit-red" aria-hidden="true">&diams;</span>
+					</button></li>
+					<li><button class="proj-card" type="button" aria-pressed="false" data-cat="game" data-suit="&hearts;" data-label="Game" data-title="Court Piece" data-note="A digital version of Court Piece, the trick-taking card game played with a 52-card deck and a trump suit.">
+						<span class="pc-idx pc-tl suit-red" aria-hidden="true">&hearts;</span>
+						<span class="pc-name">Court Piece</span>
+						<span class="pc-cat">Card game</span>
+						<span class="pc-idx pc-br suit-red" aria-hidden="true">&hearts;</span>
+					</button></li>
+					<li><button class="proj-card" type="button" aria-pressed="false" data-cat="game" data-suit="&hearts;" data-label="Game" data-title="Grid Memory Game" data-note="A memory game where you flip tiles on a grid to find matching pairs. There is a mini version on this page to try." data-play="true">
+						<span class="pc-idx pc-tl suit-red" aria-hidden="true">&hearts;</span>
+						<span class="pc-name">Grid Memory</span>
+						<span class="pc-cat">Memory game</span>
+						<span class="pc-idx pc-br suit-red" aria-hidden="true">&hearts;</span>
+					</button></li>
+					<li><button class="proj-card" type="button" aria-pressed="false" data-cat="game" data-suit="&hearts;" data-label="Game" data-title="Hangman" data-note="The classic word-guessing game: find the hidden word one letter at a time before the drawing is complete.">
+						<span class="pc-idx pc-tl suit-red" aria-hidden="true">&hearts;</span>
+						<span class="pc-name">Hangman</span>
+						<span class="pc-cat">Word game</span>
+						<span class="pc-idx pc-br suit-red" aria-hidden="true">&hearts;</span>
+					</button></li>
+					<li><button class="proj-card" type="button" aria-pressed="false" data-cat="game" data-suit="&hearts;" data-label="Game" data-title="Geo Quest" data-note="More details on this project coming soon.">
+						<span class="pc-idx pc-tl suit-red" aria-hidden="true">&hearts;</span>
+						<span class="pc-name">Geo Quest</span>
+						<span class="pc-cat">Game</span>
+						<span class="pc-idx pc-br suit-red" aria-hidden="true">&hearts;</span>
+					</button></li>
+				</ul>
+			</div>
+
+			<div class="proj-lower">
+				<article class="proj-detail" id="proj-detail" aria-live="polite">
+					<p class="pd-cat"><span class="pd-suit" id="pd-suit" aria-hidden="true">&spades;</span><span id="pd-label">Competition</span></p>
+					<h3 id="pd-title">Smart India Hackathon (SIH)</h3>
+					<p id="pd-note">Smart India Hackathon is a nationwide hackathon run by the Government of India, where student teams build working solutions to real problem statements.</p>
+					<a class="pd-play" id="pd-play" href="#memory" hidden>Play the mini version &rarr;</a>
+				</article>
+
+				<div class="memory" id="memory" role="region" aria-labelledby="memory-h">
+					<div class="mem-head">
+						<div>
+							<p class="mem-eyebrow">Mini game</p>
+							<h3 id="memory-h">Grid Memory</h3>
+							<p class="mem-sub">Inspired by my Grid Memory Game project. Match the six skill pairs in as few moves as you can.</p>
+						</div>
+						<button class="mem-btn" id="mem-new" type="button">New game</button>
+					</div>
+					<div class="mem-stats">
+						<div><span>Moves</span><b id="mem-moves">0</b></div>
+						<div><span>Pairs</span><b id="mem-pairs">0/6</b></div>
+						<div><span>Your best</span><b id="mem-best">&ndash;</b></div>
+					</div>
+					<div class="board" id="board" role="group" aria-label="Memory cards"></div>
+					<p class="mem-msg" id="mem-msg" aria-live="polite">Flip two cards to find a matching pair.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Education -->
+	<section class="section" id="education" aria-labelledby="education-h">
+		<div class="wrap">
+			<div class="section-head">
+				<div>
+					<p class="eyebrow">Education</p>
+					<h2 id="education-h">Calicut to Mysore</h2>
+				</div>
+			</div>
+			<ol class="timeline">
+				<li class="step">
+					<div class="step-card">
+						<span class="step-label">10th</span>
+						<h3>Bharatiya Vidya Bhavan</h3>
+						<p>Calicut</p>
+					</div>
+				</li>
+				<li class="step">
+					<div class="step-card">
+						<span class="step-label">12th</span>
+						<h3>Bharatiya Vidya Bhavan</h3>
+						<p>Calicut</p>
+					</div>
+				</li>
+				<li class="step step-current">
+					<div class="step-card">
+						<span class="step-label">BCA</span>
+						<h3>Amrita Vishwa Vidyapeetham</h3>
+						<p>Mysore &middot; Bachelor of Computer Applications</p>
+						<div class="meter" role="img" aria-label="GPA 8.3 out of 10">
+							<div class="meter-top"><span class="meter-val">8.3</span><small>/ 10 GPA</small></div>
+							<div class="meter-bar"><div class="meter-fill"></div></div>
+							<div class="meter-scale"><span>0</span><span>5</span><span>10</span></div>
+						</div>
+					</div>
+				</li>
+			</ol>
+		</div>
+	</section>
+
+	<!-- Awards & certifications -->
+	<section class="section" id="awards" aria-labelledby="awards-h">
+		<div class="wrap">
+			<div class="section-head">
+				<div>
+					<p class="eyebrow">Recognition</p>
+					<h2 id="awards-h">Awards &amp; certifications</h2>
+				</div>
+			</div>
+			<div class="awards">
+				<article class="award award-win">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 2.5l3.2 7M17 2.5l-3.2 7M9.5 2.5h5"/><circle cx="12" cy="15.5" r="6"/><path d="M10.6 13.4l1.6-1v6.2"/></svg>
+					<span class="big">3rd</span>
+					<h3>Place winner, INNOTHON</h3>
+					<p class="award-tag">Award &middot; College event</p>
+				</article>
+				<article class="award">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M7 8.5h10M7 11.5h6"/><circle cx="16.5" cy="16.5" r="2.5"/><path d="M15.3 18.7l-.6 3 1.8-1 1.8 1-.6-3"/></svg>
+					<h3>Hands-on Workshop on Web Application Development using Odoo</h3>
+					<p class="award-tag">Certification &middot; Workshop</p>
+				</article>
+				<article class="award">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M7 8.5h10M7 11.5h6"/><circle cx="16.5" cy="16.5" r="2.5"/><path d="M15.3 18.7l-.6 3 1.8-1 1.8 1-.6-3"/></svg>
+					<h3>Technical Insight into AR/VR Game Development and Careers in Immersive XR</h3>
+					<p class="award-tag">Certification &middot; Session</p>
+				</article>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact -->
+	<section class="section contact" id="contact" aria-labelledby="contact-h">
+		<div class="wrap">
+			<div class="contact-card">
+				<div>
+					<p class="eyebrow">Contact</p>
+					<h2 id="contact-h">Let&rsquo;s build something together.</h2>
+					<p class="contact-sub">I&rsquo;m looking for Software Developer roles. The quickest way to reach me is by phone.</p>
+				</div>
+				<div>
+					<p class="contact-label">Phone</p>
+					<p class="phone" id="phone-text">+91 96569 88648</p>
+					<div class="contact-actions">
+						<button class="btn btn-inv" type="button" data-copy="+919656988648">Copy number</button>
+						<a class="btn btn-inv-ghost" href="tel:+919656988648">Call</a>
+					</div>
+					<p class="contact-label">Location</p>
+					<p class="contact-loc">Calicut 673032, Kerala</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+
+<footer class="wrap footer">
+	<span>&copy; 2026 Jaykumar Esum Pugalia</span>
+	<a href="#main">Back to top &uarr;</a>
+</footer>
+<!--/BODY-->
+<script src="script.js"></script>
 </body>
 </html>
